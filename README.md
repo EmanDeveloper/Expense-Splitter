@@ -1,12 +1,48 @@
-# React + Vite
+# Expense Splitter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Expense Splitter is a simple and beautiful React-based application that helps users split expenses among multiple people. It calculates how much each person should pay or receive to ensure fair expense sharing.
 
-Currently, two official plugins are available:
+## Features
+- **Dynamic Input Fields**: Add multiple people and enter their expense amounts.
+- **Expression-Based Calculation**: Users can input mathematical expressions (e.g., `10+20`) for amounts.
+- **Fair Share Calculation**: Automatically determines how much each person owes or receives.
+- **Transaction Suggestions**: Provides a list of payments required to settle the expenses fairly.
+- **Beautiful UI**: Styled with Tailwind CSS for a modern and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- React.js
+- Tailwind CSS
 
-## Expanding the ESLint configuration
+## Installation & Usage
+### 1. Clone the Repository
+```sh
+git clone https://github.com/your-username/expense-splitter.git
+cd expense-splitter
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Install Dependencies
+```sh
+npm install
+```
+
+### 3. Run the Application
+```sh
+npm start
+```
+
+## How It Works
+1. Enter names and expense amounts.
+2. Click **Add More** to include additional persons.
+3. Click **Calculate** to determine fair share and suggested transactions.
+4. The results will be displayed in an alert box.
+
+## Screenshots
+![Expense Splitter UI](https://via.placeholder.com/800x400?text=Screenshot+of+Expense+Splitter)
+
+## Contribution
+Feel free to fork this repository and contribute. You can submit pull requests for new features or bug fixes.
+
+## License
+This project is licensed under the MIT License.
+

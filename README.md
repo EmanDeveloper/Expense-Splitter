@@ -37,8 +37,6 @@ npm start
 3. Click **Calculate** to determine fair share and suggested transactions.
 4. The results will be displayed in an alert box.
 
-## Screenshots
-![Expense Splitter UI](https://via.placeholder.com/800x400?text=Screenshot+of+Expense+Splitter)
 
 ## Contribution
 Feel free to fork this repository and contribute. You can submit pull requests for new features or bug fixes.

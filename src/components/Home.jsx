@@ -66,11 +66,11 @@ const Home = () => {
     };
 
     return (
-        <div className="min-h-screen  flex items-center justify-center p-6">
-            <div className=" shadow-sm shadow-amber-50 rounded-lg p-6 w-full max-w-2xl">
-                <h2 className="text-2xl font-semibold  text-center mb-4">Expense Splitter</h2>
+        <div className="min-h-screen flex items-center justify-center p-4 md:p-6 bg-gray-900">
+            <div className="shadow-md shadow-gray-200 rounded-lg p-6 w-full max-w-lg bg-gray-900">
+                <h2 className="text-2xl font-semibold text-center mb-4">Expense Splitter</h2>
                 {persons.map((person, index) => (
-                    <div key={index} className="mb-4 flex space-x-2">
+                    <div key={index} className="mb-4 flex flex-col md:flex-row md:space-x-2 space-y-2 md:space-y-0">
                         <input
                             type="text"
                             name="name"
@@ -89,9 +89,9 @@ const Home = () => {
                         />
                     </div>
                 ))}
-                <div className="flex justify-between mt-4">
-                    <button onClick={addPerson} className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg shadow-md transition">Add More</button>
-                    <button onClick={handleSubmit} className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg shadow-md transition">Calculate</button>
+                <div className="flex flex-col md:flex-row justify-between mt-4 space-y-2 md:space-y-0 md:space-x-2">
+                    <button onClick={addPerson} className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg shadow-md transition w-full md:w-auto">Add More</button>
+                    <button onClick={handleSubmit} className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg shadow-md transition w-full md:w-auto">Calculate</button>
                 </div>
             </div>
         </div>

@@ -67,8 +67,8 @@ const Home = () => {
 
     return (
         <div className="min-h-screen flex items-center justify-center p-4 md:p-6 bg-[#191922]"> {/* Soft gray background */}
-        <div className="shadow-md shadow-gray-300 rounded-lg p-6 w-full max-w-lg bg-[#14141f]"> {/* Ensures background works */}
-            <h2 className="text-2xl font-semibold text-center mb-4 ">Expense Splitter</h2>
+        <div className="shadow-md shadow-[#ffff] rounded-lg p-6 w-full max-w-lg bg-[#14141f]"> {/* Ensures background works */}
+            <h2 className="text-2xl font-semibold text-center mb-4 text-[#ffff]">Expense Splitter</h2>
             
             {persons.map((person, index) => (
                 <div key={index} className="mb-4 flex flex-col md:flex-row md:space-x-2 space-y-2 md:space-y-0">
